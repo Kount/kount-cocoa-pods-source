@@ -13,7 +13,7 @@ Step 4:- Add dependency like below and you can edit the Podfile.
 	target '[App_Name]' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  source 'https://github.com/VamsiKrishna1805/KountDataCollectorPodSpec.git'
+  source 'https://github.com/Kount/kount-pod-spec.git'
 
   # Pods for Climate
   pod 'Kount', '4.1.5'
