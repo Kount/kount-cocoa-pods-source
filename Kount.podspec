@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Kount'
-  s.version          = '1.0.0'
+  s.version          = '4.1.5'
   s.summary          = 'KountDataCollector that collects data from device and iOS app.'
 
 # This description is used to generate tags and improve search results.
