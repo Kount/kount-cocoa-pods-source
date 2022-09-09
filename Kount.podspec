@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Kount'
-  s.version          = '4.1.5'
+  s.version          = '4.1.6'
   s.summary          = 'KountDataCollector that collects data from device and iOS app.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'xcframeworks/KountDataCollector.xcframework'
   s.platform = :ios
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '11.0'
   # s.swift_version = "4.2"
   # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
