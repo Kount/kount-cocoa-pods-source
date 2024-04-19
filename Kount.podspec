@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Kount'
-  s.version          = '4.1.9'
+  s.version          = '4.1.10'
   s.summary          = 'KountDataCollector that collects data from device and iOS app.'
 
 # This description is used to generate tags and improve search results.
@@ -23,14 +23,15 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author           = { 'VamsiKrishna1805' => 'vamsi.krishna@intimetec.com' }
+  s.author           = { 'AlejandroEFX' => 'Alejandro.villalobos1@equifax.com' }
   s.source           = { :git => 'https://github.com/Kount/kount-cocoa-pods-source.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.vendored_frameworks = 'xcframeworks/KountDataCollector.xcframework'
   s.platform = :ios
+  s.resource_bundles = {'Kount' => ['Resources/PrivacyInfo.xcprivacy']}
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   # s.swift_version = "4.2"
   # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
