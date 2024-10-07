@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Kount'
-  s.version          = '4.2.0'
+  s.version          = '4.2.1'
   s.summary          = 'KountDataCollector that collects data from device and iOS app.'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Kount SDK for iOS helps integrate Kount fraud fighting solution into your iOS app.'
 
-  s.homepage         = 'https://github.com/Equifax/kount-cocoa-pods-source'
+  s.homepage         = 'https://github.com/Kount/kount-cocoa-pods-source'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author           = { 'AlejandroEFX' => 'alejandro.villalobos1@equifax.com' }
+  s.author           = { 'AlejandroEFX' => 'Alejandro.villalobos1@equifax.com' }
   s.source           = { :git => 'https://github.com/Kount/kount-cocoa-pods-source.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,8 +32,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {'Kount' => ['Resources/PrivacyInfo.xcprivacy']}
 
   s.ios.deployment_target = '12.0'
-  s.public_header_files = 'xcframeworks/KountDataCollector.xcframework/ios-arm64/Headers/*.h', 'xcframeworks/KountDataCollector.xcframework/ios-arm64_x86_64-simulator/Headers/*.h'
-  s.module_map = 'xcframeworks/KountDataCollector.xcframework/ios-arm64_x86_64-simulator/Headers/module.modulemap'
   # s.swift_version = "4.2"
   # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
