@@ -1,5 +1,0 @@
-module KountDataCollector {
-    umbrella header "ios-arm64_x86_64-simulator/Headers/KountUmbrella.h"
-    requires ios
-    export *
-}
