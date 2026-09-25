@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Kount'
-  s.version          = '5.0.0'
+  s.version          = '6.0.0'
   s.summary          = 'KountSDK collects data from device and iOS app.'
   s.description      = 'KountSDK for iOS helps integrate Kount fraud fighting solution into your iOS app.'
   s.homepage         = 'https://github.com/Kount/kount-cocoa-pods-source'
@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Kount/kount-cocoa-pods-source.git', :tag => s.version.to_s }
   s.platform         = :ios, '13.0'
   s.swift_version    = '5.0'
+  s.public_header_files = 'xcframeworks/KountSDK.xcframework/ios-arm64/Headers/*.h', 'xcframeworks/KountSDK.xcframework/ios-arm64_x86_64-simulator/Headers/*.h'
+  s.module_map = 'xcframeworks/KountSDK.xcframework/ios-arm64_x86_64-simulator/Headers/module.modulemap'
   s.vendored_frameworks = 'xcframeworks/KountSDK.xcframework'
   s.resources = 'Resources/PrivacyInfo.xcprivacy'
 end
