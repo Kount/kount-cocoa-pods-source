@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Kount'
-  s.version          = '6.0.0'
+  s.version          = '6.0.1-beta.1'
   s.summary          = 'KountSDK collects data from device and iOS app.'
   s.description      = 'KountSDK for iOS helps integrate Kount fraud fighting solution into your iOS app.'
   s.homepage         = 'https://github.com/Kount/kount-cocoa-pods-source'
